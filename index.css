@@ -1,0 +1,330 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+html,
+body {
+    font: caption;
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    background-image: url(Main_page_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+#nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 4;
+}
+.nav-color{
+    background-color: rgb(36, 36, 71);
+}
+.nav-no-color{
+    background-color: transparent;
+}
+#logo{
+    width: 150px;
+    height: 30px;
+    background-image: url(Chritee_nav_logo.png);
+    background-size: cover;
+    background-position: center;
+}
+.options{
+    width: 700px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+.contect-btn{
+    display: flex;
+}
+.donate-btn{
+    margin-left: 20px;
+    width: 170px;
+    height: 40px;
+    background-color: orangered;
+}
+#content{
+    margin: auto;
+    padding-top: 300px;
+    width: 93%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.sub-heading{
+    margin-top: 20px;
+    font-size: 14px;
+    width: 300px;
+}
+.on-p{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: aquamarine;
+    font-weight: bolder;
+    border-radius: 3px;
+}
+.about-us{
+    margin: auto;
+    width: 93%;
+    color: rgb(79, 79, 79);
+    display: flex;
+    margin-bottom: 150px;
+}
+.about-sub-head{
+    color: aquamarine;
+    font-weight: bold;
+}
+.about{
+    width: 50%;
+    /* background-color: red; */
+}
+.about-heading{
+    margin-top: 35px;
+    max-width: 330px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.about-more{
+    margin-top: 30px;
+    color: gray;
+    max-width: 400px;
+}
+.donate-here{
+    margin-top: 40px;
+    width: 230px;
+    height: 45px;
+    background-color: orangered;
+    border-color: orangered;
+    font-size: 18px;
+    color: white;
+    font-weight: bolde;
+}
+.img-container{
+    margin-top: 30px;
+    width: 200px;
+    height: 250px;
+    background-color:antiquewhite;
+}
+.img{
+    width: 200px;
+    height: 300px;
+}
+.f-i{
+    position: absolute;
+    background-image: url(pandemic_img.jpeg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-40px, -70px);
+    z-index: 1;
+}
+.s-i{
+    position: absolute;
+    background-image: url(pexels-photo-6646862.jpeg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(50px, 70px);
+}
+.card-container{
+    display: flex;
+    min-height: 300px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 31%;
+    margin: 10px;
+    height: 450px;
+    background-color:rgb(255, 244, 231);
+}
+.card-img{
+    width: 100%;
+    height: 300px;
+}
+.c-1{
+    background-image: url(card-img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.c-2{
+    background-image: url(card-img2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.c-3{
+    background-image: url(card-img3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card-head{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+}
+.card-p{
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: gray;
+}
+.amount-donate{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.Donate{
+    width: 160px;
+    height: 40px;
+    background-color: orangered;
+    border-color: orangered;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+.amount-d{
+    width: 100px;
+    /* background-color: red; */
+}
+.proise{
+    color: rgb(0, 196, 131);
+}
+.goal{
+    color: gray;
+}
+.Helping_today{
+    width: 100%;
+    height: 100vh;
+    background-image: url(static_img.jpg);
+}
+.h-sub-head{
+    font-size: 20px;
+}
+.h-head{
+    margin-top: 30px;
+    font-size: 40px;
+}
+.help-cards{
+    margin-top: 150px;
+    width: 90%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+.h-card{
+    min-height: 300px;
+    width: 340px;
+    /* background-color: red; */
+}
+.h-card-img{
+    margin: auto;
+    margin-top: 20px;
+    /* padding: 20px; */
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.382);
+    border-radius: 50%;
+}
+.h-img-1{
+    background-image: url(meat.png);
+    background-size: cover;
+    background-position: center;
+}
+.h-img-2{
+    background-image: url(pills-bottle.png);
+    background-size: cover;
+    background-position: center;
+}
+.h-img-3{
+    background-image: url(book.png);
+    background-size: cover;
+    background-position: center;
+}
+.h-c-head{
+    margin: auto;
+    width: 180px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.h-c-sub{
+    margin: auto;
+    margin-top: 20px;
+    width: 310px;
+    text-align: center;
+}
+.map{
+    width: 100%;
+    height: 500px;
+}
+.footer{
+    padding-top: 30px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(36, 36, 71);
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.discription{
+    margin-top: 40px;
+    width: 400px;
+    height: 150px;
+    /* background-color: red; */
+}
+
+.d-des{
+    margin-top: 30px;
+    width: 390px;
+    text-align: justify;
+}
+.sponcer{
+    margin-top: 30px;
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+.sponcer-img{
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+}
+.more{
+    margin-top: 40px;
+    padding: 10px;
+    width: 280px;
+    height: 200px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.title{
+    font-size: 20px;
+}
